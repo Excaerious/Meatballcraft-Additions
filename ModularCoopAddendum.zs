@@ -3,10 +3,10 @@ import mods.modularmachinery.RecipeBuilder;
 #Iron Chicken
 
 val chick60 = RecipeBuilder.newBuilder("chick60","mechanized_coop",480);
-chick1.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:ironchicken"}}));
-chick1.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:ironchicken"}}));
-chick1.addItemOutput(<minecraft:iron_ingot>*16);
-chick1.build();
+chick60.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:ironchicken"}}));
+chick60.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:ironchicken"}}));
+chick60.addItemOutput(<minecraft:iron_ingot>*16);
+chick60.build();
 
 #Gold Chicken
 
