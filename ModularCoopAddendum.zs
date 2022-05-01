@@ -1,5 +1,3 @@
-import mods.modularmachinery.RecipeBuilder;
-
 #Iron Chicken
 
 val chick60 = RecipeBuilder.newBuilder("chick60","mechanized_coop",480);
