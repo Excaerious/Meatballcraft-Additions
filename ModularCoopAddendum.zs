@@ -77,3 +77,99 @@ chick69.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:r
 chick69.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:redstonechicken"}}));
 chick69.addItemOutput(<minecraft:redstone>*16);
 chick69.build();
+
+#Log Chicken
+
+val chick70 = RecipeBuilder.newBuilder("chick70","mechanized_coop",480);
+chick70.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:logchicken"}}));
+chick70.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:logchicken"}}));
+chick70.addItemOutput(<minecraft:log>*16);
+chick70.build();
+
+#Gunpowder Chicken
+
+val chick71 = RecipeBuilder.newBuilder("chick71","mechanized_coop",480);
+chick71.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:gunpowderchicken"}}));
+chick71.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:gunpowderchicken"}}));
+chick71.addItemOutput(<minecraft:gunpowder>*16);
+chick71.build();
+
+#String Chicken
+
+val chick72 = RecipeBuilder.newBuilder("chick72","mechanized_coop",480);
+chick72.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:stringchicken"}}));
+chick72.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:stringchicken"}}));
+chick72.addItemOutput(<minecraft:string>*16);
+chick72.build();
+
+#Blaze Chicken
+
+val chick73 = RecipeBuilder.newBuilder("chick73","mechanized_coop",480);
+chick73.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:blazechicken"}}));
+chick73.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:blazechicken"}}));
+chick73.addItemOutput(<minecraft:blaze_rod>*16);
+chick73.build();
+
+#Nether Wart Chicken
+
+val chick74 = RecipeBuilder.newBuilder("chick74","mechanized_coop",480);
+chick74.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:netherwartchicken"}}));
+chick74.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:netherwartchicken"}}));
+chick74.addItemOutput(<minecraft:nether_wart>*16);
+chick74.build();
+
+#Flint Chicken
+
+val chick75 = RecipeBuilder.newBuilder("chick75","mechanized_coop",480);
+chick75.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:flintchicken"}}));
+chick75.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:flintchicken"}}));
+chick75.addItemOutput(<minecraft:flint>*16);
+chick75.build();
+
+#Snowball Chicken
+
+val chick76 = RecipeBuilder.newBuilder("chick76","mechanized_coop",480);
+chick76.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:snowballchicken"}}));
+chick76.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:snowballchicken"}}));
+chick76.addItemOutput(<minecraft:snowball>*16);
+chick76.build();
+
+#Soul Sand Chicken
+
+val chick77 = RecipeBuilder.newBuilder("chick77","mechanized_coop",480);
+chick77.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:soulsandchicken"}}));
+chick77.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:soulsandchicken"}}));
+chick77.addItemOutput(<minecraft:soul_sand>*16);
+chick77.build();
+
+#Sand Chicken
+
+val chick78 = RecipeBuilder.newBuilder("chick78","mechanized_coop",480);
+chick78.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:sandchicken"}}));
+chick78.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:sandchicken"}}));
+chick78.addItemOutput(<minecraft:sand>*16);
+chick78.build();
+
+#Clay Chicken
+
+val chick79 = RecipeBuilder.newBuilder("chick79","mechanized_coop",480);
+chick79.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:claychicken"}}));
+chick79.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:claychicken"}}));
+chick79.addItemOutput(<minecraft:clay_ball>*16);
+chick79.build();
+
+#Lapis Chicken
+
+val chick80 = RecipeBuilder.newBuilder("chick80","mechanized_coop",480);
+chick80.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:bluechicken"}}));
+chick80.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:bluechicken"}}));
+chick80.addItemOutput(<minecraft:dye:4>*16);
+chick80.build();
+
+#Leather Chicken
+
+val chick81 = RecipeBuilder.newBuilder("chick81","mechanized_coop",480);
+chick81.addItemInput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:leatherchicken"}}));
+chick81.addItemOutput(<chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:leatherchicken"}}));
+chick81.addItemOutput(<minecraft:leather>*16);
+chick81.build();
